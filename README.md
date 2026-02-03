@@ -20,4 +20,4 @@ Clone or download the lexer.py file.
 Open your terminal or command prompt.
 
 Run the script using:
-python lexer.py
+python script.py
