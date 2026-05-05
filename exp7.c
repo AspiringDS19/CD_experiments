@@ -3,7 +3,6 @@
 
 #define MAX_INPUT 128
 #define MAX_STACK 128
-
 static const char *PRODS[] = {
 	"E->E+E",
 	"E->E*E",
