@@ -7,7 +7,6 @@ def compute_first(grammar):
         # If it's a terminal, FIRST is itself
         if symbol not in grammar:
             return {symbol}
-        
         # If already computed, return it
         if first[symbol]:
             return first[symbol]
