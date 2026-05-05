@@ -1,7 +1,6 @@
 def construct_ll1_table(grammar, first, follow):
     table = {}
     terminals = set()
-
     # Collect all terminals in the grammar
     for productions in grammar.values():
         for prod in productions:
