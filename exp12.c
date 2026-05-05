@@ -5,7 +5,6 @@
 #define MAX_EXPR 256
 #define MAX_STACK 256
 #define MAX_CODE 128
-
 typedef struct {
 	char op;
 	char arg1[16];
