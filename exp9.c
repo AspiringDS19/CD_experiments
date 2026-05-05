@@ -8,7 +8,6 @@
 #define MAX_ITEMS 256
 #define MAX_STATES 128
 #define MAX_SYMBOLS 64
-
 typedef struct {
 	char lhs;
 	char rhs[MAX_LEN];
