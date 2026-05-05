@@ -2,7 +2,6 @@
 #include <string.h>
 #include <ctype.h>
 #include <stdbool.h>
-
 #define MAX_PROD 26
 #define MAX_ALTS 32
 #define MAX_LEN 64
