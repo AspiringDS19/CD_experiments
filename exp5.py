@@ -2,7 +2,6 @@ import sys
 
 def compute_first(grammar):
     first = {nt: set() for nt in grammar}
-    
     def get_first(symbol):
         # If it's a terminal, FIRST is itself
         if symbol not in grammar:
