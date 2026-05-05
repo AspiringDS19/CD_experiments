@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
 #define MAX_EXPR 256
 #define MAX_STACK 256
 
