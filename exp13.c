@@ -6,7 +6,6 @@
 #define MAX_STACK 256
 #define MAX_NODES 128
 #define MAX_LABELS 8
-
 typedef struct {
 	char op;
 	int left;
