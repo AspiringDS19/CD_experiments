@@ -5,7 +5,6 @@
 #define MAX_BLOCKS 16
 #define MAX_VARS 16
 #define MAX_LINE 256
-
 typedef struct {
 	bool gen[MAX_VARS];
 	bool kill[MAX_VARS];
